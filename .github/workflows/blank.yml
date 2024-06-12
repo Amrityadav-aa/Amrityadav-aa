@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrit Yadav's Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 2em;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            margin-top: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <nav>
+        <a href="#entertainment">Entertainment</a>
+        <a href="#jokes">Jokes</a>
+        <a href="#moral-stories">Moral Stories</a>
+    </nav>
+
+    <section id="entertainment">
+        <h2>Entertainment</h2>
+        <p>Welcome to the entertainment section. Here you will find various forms of entertainment to enjoy.</p>
+    </section>
+
+    <section id="jokes">
+        <h2>Jokes</h2>
+        <p>Welcome to the jokes section. Here are some jokes to make you laugh.</p>
+    </section>
+
+    <section id="moral-stories">
+        <h2>Moral Stories</h2>
+        <p>Welcome to the moral stories section. Enjoy these stories with meaningful lessons.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Amrit Yadav</p>
+    </footer>
+
+</body>
+</html>
